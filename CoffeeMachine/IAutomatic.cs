@@ -7,10 +7,11 @@ namespace CoffeeMachine
 {
     public interface IAutomatic
     {
-        int LevelSugar { get; set; }
         string Instruction { get; }
-        IDrink[] Drinks { get; }
+        List<IDrink> Drinks { get; }
+        AutomaticState State { get; }
 
         void Make(IDrink drink);
+        void AddDrink(IDrink drink);
     }
 }

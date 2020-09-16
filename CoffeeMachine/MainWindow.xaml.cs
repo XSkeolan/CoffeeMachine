@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -23,6 +24,20 @@ namespace CoffeeMachine
         public MainWindow()
         {
             InitializeComponent();
+            Automatic auto = new Automatic();
+            auto.DrinkBeginMade += Auto_DrinkBeginMade;
+            auto.Make(new Espresso());
+        }
+
+        private void Auto_DrinkBeginMade(object sender, EventArgs e)
+        {
+            DateTime a = DateTime.Now;
+
+            //while (DateTime.Now != a.AddSeconds(2))
+            //    continue;
+            Ready.Background = new ImageBrush(new BitmapImage(new Uri(@"D:\Загрузки\CoffeeMachine-dev\CoffeeMachine-dev\CoffeeMachine\images\processing1.png")));
+            Thread.Sleep(3000);
+            Ready.Background = new ImageBrush(new BitmapImage(new Uri(@"D:\Загрузки\CoffeeMachine-dev\CoffeeMachine-dev\CoffeeMachine\images\processing2.png")));
         }
     }
 }

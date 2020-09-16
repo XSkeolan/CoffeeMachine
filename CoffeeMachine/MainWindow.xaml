@@ -5,8 +5,83 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CoffeeMachine"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="MainWindow" Height="855.017" Width="744.397" Background="#FFCFAB31" WindowStartupLocation="CenterScreen">
+    <DockPanel>
+        <StackPanel Height="824" VerticalAlignment="Top" Width="467">
+            <Grid Height="400" Margin="45,100,45,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Button Content="Button" HorizontalAlignment="Center" VerticalAlignment="Center" Width="100" Height="100" Margin="21,12,5,21">
+                    <Button.BorderBrush>
+                        <ImageBrush/>
+                    </Button.BorderBrush>
+                    <Button.Foreground>
+                        <ImageBrush/>
+                    </Button.Foreground>
+                    <Button.Background>
+                        <ImageBrush ImageSource ="D:\Загрузки\CoffeeMachine-dev\CoffeeMachine-dev\CoffeeMachine\images\cafe.png"/>
+                    </Button.Background>
+                </Button>
+                <Label Content="Americano" HorizontalContentAlignment="Center" VerticalAlignment="Bottom" FontFamily="Tw Cen MT Condensed Extra Bold" FontSize="20"/>
+                <Button Content="Button" HorizontalAlignment="Center" VerticalAlignment="Center" Width="100" Height="100" Margin="21,12,5,21" Grid.Column="1">
+                    <Button.BorderBrush>
+                        <ImageBrush/>
+                    </Button.BorderBrush>
+                    <Button.Foreground>
+                        <ImageBrush/>
+                    </Button.Foreground>
+                    <Button.Background>
+                        <ImageBrush ImageSource ="cafe1.png"/>
+                    </Button.Background>
+                </Button>
+                <Label Content="Latte" HorizontalContentAlignment="Center" VerticalAlignment="Bottom" FontFamily="Tw Cen MT Condensed Extra Bold" FontSize="20" RenderTransformOrigin="0.921,0.531" Grid.Column="1"/>
+                <Button Content="Button" HorizontalAlignment="Center" VerticalAlignment="Center" Width="100" Height="100" Margin="21,12,5,21" Grid.Column="2">
+                    <Button.BorderBrush>
+                        <ImageBrush/>
+                    </Button.BorderBrush>
+                    <Button.Foreground>
+                        <ImageBrush/>
+                    </Button.Foreground>
+                    <Button.Background>
+                        <ImageBrush ImageSource ="cafe1.png"/>
+                    </Button.Background>
+                </Button>
+                <Label Content="Espresso" HorizontalContentAlignment="Center" VerticalAlignment="Bottom" FontFamily="Tw Cen MT Condensed Extra Bold" FontSize="20" RenderTransformOrigin="0.921,0.531" Grid.Column="2"/>
+            </Grid>
+            <StackPanel x:Name="Ready" Height="218" Margin="182,0,172,0">
+                <StackPanel.Background>
+                    <ImageBrush ImageSource="file:///D:/Загрузки/CoffeeMachine-dev/CoffeeMachine-dev/CoffeeMachine/images/bonappetit.png"/>
+                </StackPanel.Background>
+            </StackPanel>
+            <Label Content="Осторожно, горячо!" HorizontalContentAlignment="Center" FontFamily="Tw Cen MT Condensed Extra Bold" FontSize="20" Margin="82,0,71,0" VerticalAlignment="Bottom" HorizontalAlignment="Center" Width="314" Foreground="#FFD80D0D"/>
+
+        </StackPanel>
+        <StackPanel Height="824" VerticalAlignment="Top" Width="268" DockPanel.Dock="Right">
+            <StackPanel Height="106"/>
+            <StackPanel Height="100"/>
+            <Button Content="" Height="53" Margin="100,0,117,0" Foreground="#00000000" BorderBrush="#00707070">
+                <Button.Background>
+                    <ImageBrush ImageSource="D:\Загрузки\CoffeeMachine-dev\CoffeeMachine-dev\CoffeeMachine\images\cancel.png"/>
+                </Button.Background>
+            </Button>
+            <Label Content="Отменить" HorizontalContentAlignment="Center" VerticalAlignment="Bottom" FontFamily="Tw Cen MT Condensed Extra Bold" FontSize="20" RenderTransformOrigin="0.921,0.531" Margin="42,0,58,0"/>
+            <TextBlock TextWrapping="Wrap" Text="TextBlock"/>
+            <Button Content="" Height="76" Margin="78,0,90,0" Foreground="#00000000" BorderBrush="#00707070">
+                <Button.Background>
+                    <ImageBrush ImageSource="D:\Загрузки\CoffeeMachine-dev\CoffeeMachine-dev\CoffeeMachine\images\change.png"/>
+                </Button.Background>
+            </Button>
+            <Label Content="Забрать сдачу" HorizontalContentAlignment="Center" VerticalAlignment="Bottom" FontFamily="Tw Cen MT Condensed Extra Bold" FontSize="20" RenderTransformOrigin="0.921,0.531" Margin="42,0,58,0"/>
+            <Image Height="100" Source="D:\Загрузки\CoffeeMachine-dev\CoffeeMachine-dev\CoffeeMachine\images\coins.png" Margin="0,0,10,0"/>
+        </StackPanel>
+
+    </DockPanel>
 </Window>

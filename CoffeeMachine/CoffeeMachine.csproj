@@ -55,6 +55,17 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Americano.cs" />
+    <Compile Include="Cappuccino.cs" />
+    <Compile Include="DoubleEspresso.cs" />
+    <Compile Include="Espresso.cs" />
+    <Compile Include="HotChocolate.cs" />
+    <Compile Include="Latte.cs" />
+    <Compile Include="Tea.cs" />
+    <Compile Include="TypeTea.cs" />
+    <Compile Include="UserControl1.xaml.cs">
+      <DependentUpon>UserControl1.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -64,13 +75,17 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Automatic.cs" />
-    <Compile Include="Drink.cs" />
+    <Compile Include="Coffee.cs" />
     <Compile Include="IAutomatic.cs" />
     <Compile Include="IDrink.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="UserControl1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -98,6 +113,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="cafe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="cafe1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="cancel.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
