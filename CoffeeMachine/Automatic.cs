@@ -29,10 +29,11 @@ namespace CoffeeMachine
         //Нужно выбрать
         public List<IDrink> Drinks { get { return drinks; } }
 
+        public AutomaticState State => throw new NotImplementedException();
+
         public void Make(IDrink drink)
         {
             DrinkBeginMade?.Invoke(this, new EventArgs());
-            throw new System.NotImplementedException();
         }
 
         public int ReturnСhange()
@@ -43,6 +44,11 @@ namespace CoffeeMachine
         public void AddDrink()
         {
             throw new System.NotImplementedException();
+        }
+
+        public void AddDrink(IDrink drink)
+        {
+            throw new NotImplementedException();
         }
 
         public event System.EventHandler DrinkBeginMade;

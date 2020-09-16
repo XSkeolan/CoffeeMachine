@@ -3,3 +3,20 @@ E:\Project\C#\University\Third Semester\CoffeeMachine\CoffeeMachine\obj\Debug\Ma
 E:\Project\C#\University\Third Semester\CoffeeMachine\CoffeeMachine\obj\Debug\App.g.cs
 E:\Project\C#\University\Third Semester\CoffeeMachine\CoffeeMachine\obj\Debug\CoffeeMachine_MarkupCompile.cache
 E:\Project\C#\University\Third Semester\CoffeeMachine\CoffeeMachine\obj\Debug\CoffeeMachine_MarkupCompile.lref
+D:\Загрузки\CoffeeMachine-dev\CoffeeMachine-dev\CoffeeMachine\obj\Debug\CoffeeMachine.csprojAssemblyReference.cache
+D:\Загрузки\CoffeeMachine-dev\CoffeeMachine-dev\CoffeeMachine\obj\Debug\MainWindow.g.cs
+D:\Загрузки\CoffeeMachine-dev\CoffeeMachine-dev\CoffeeMachine\obj\Debug\App.g.cs
+D:\Загрузки\CoffeeMachine-dev\CoffeeMachine-dev\CoffeeMachine\obj\Debug\CoffeeMachine_MarkupCompile.cache
+D:\Загрузки\CoffeeMachine-dev\CoffeeMachine-dev\CoffeeMachine\obj\Debug\CoffeeMachine_MarkupCompile.lref
+D:\Загрузки\CoffeeMachine-dev\CoffeeMachine-dev\CoffeeMachine\bin\Debug\CoffeeMachine.exe.config
+D:\Загрузки\CoffeeMachine-dev\CoffeeMachine-dev\CoffeeMachine\bin\Debug\CoffeeMachine.exe
+D:\Загрузки\CoffeeMachine-dev\CoffeeMachine-dev\CoffeeMachine\bin\Debug\CoffeeMachine.pdb
+D:\Загрузки\CoffeeMachine-dev\CoffeeMachine-dev\CoffeeMachine\obj\Debug\MainWindow.baml
+D:\Загрузки\CoffeeMachine-dev\CoffeeMachine-dev\CoffeeMachine\obj\Debug\CoffeeMachine.g.resources
+D:\Загрузки\CoffeeMachine-dev\CoffeeMachine-dev\CoffeeMachine\obj\Debug\CoffeeMachine.Properties.Resources.resources
+D:\Загрузки\CoffeeMachine-dev\CoffeeMachine-dev\CoffeeMachine\obj\Debug\CoffeeMachine.csproj.GenerateResource.cache
+D:\Загрузки\CoffeeMachine-dev\CoffeeMachine-dev\CoffeeMachine\obj\Debug\CoffeeMachine.csproj.CoreCompileInputs.cache
+D:\Загрузки\CoffeeMachine-dev\CoffeeMachine-dev\CoffeeMachine\obj\Debug\CoffeeMachine.exe
+D:\Загрузки\CoffeeMachine-dev\CoffeeMachine-dev\CoffeeMachine\obj\Debug\CoffeeMachine.pdb
+D:\Загрузки\CoffeeMachine-dev\CoffeeMachine-dev\CoffeeMachine\obj\Debug\UserControl1.g.cs
+D:\Загрузки\CoffeeMachine-dev\CoffeeMachine-dev\CoffeeMachine\obj\Debug\UserControl1.baml
