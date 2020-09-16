@@ -7,6 +7,11 @@ namespace CoffeeMachine
 {
     internal class Automatic : IAutomatic
     {
+        private List<IDrink> drinks;
+        public Automatic()
+        {
+
+        }
         public Drinks CurrentDrink
         {
             get => default(int);
@@ -22,7 +27,7 @@ namespace CoffeeMachine
         public string Instruction => throw new NotImplementedException();
 
         //Нужно выбрать
-        public IDrink[] Drinks { get => throw new NotImplementedException();}
+        public List<IDrink> Drinks { get { return drinks; } }
 
         public void Make(IDrink drink)
         {
@@ -35,7 +40,23 @@ namespace CoffeeMachine
             throw new System.NotImplementedException();
         }
 
+        public void AddDrink()
+        {
+            throw new System.NotImplementedException();
+        }
+
         public event System.EventHandler DrinkBeginMade;
         public event System.EventHandler DrinkCancelMade;
+        public event EventHandler StateChanged;
+    }
+
+    public enum AutomaticState
+    {
+        ReadyToWork,
+        ChooseDrink,
+        ReciveMoney,
+        Working,
+        Canceled,
+        Ready
     }
 }

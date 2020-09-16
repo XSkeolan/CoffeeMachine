@@ -23,6 +23,7 @@ namespace CoffeeMachine
         public MainWindow()
         {
             InitializeComponent();
+            Automatic auto = new Automatic();
         }
     }
 }
