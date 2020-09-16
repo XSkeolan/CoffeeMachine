@@ -1,43 +1,101 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="CoffeeMachine.Drink">
-    <Position X="5.25" Y="3.25" Width="1.5" />
+  <Class Name="CoffeeMachine.Coffee">
+    <Position X="6" Y="2" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAQAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Drink.cs</FileName>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAQAQAAEAAAAAIAACAAAAAAAA=</HashCode>
+      <FileName>Coffee.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="CoffeeMachine.Automatic">
-    <Position X="2.5" Y="3.75" Width="1.5" />
+    <Position X="2.5" Y="2.5" Width="1.5" />
     <Compartments>
       <Compartment Name="Nested Types" Collapsed="false" />
     </Compartments>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAgCAAAAAAAAAAAAAMAIAAAAEAAAQAIQAAA=</HashCode>
+      <HashCode>AAAAAAAAAAgCAAAIAAAAAAAAAMAIAAAAEAAAQAIQAAA=</HashCode>
       <FileName>Automatic.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Interface Name="CoffeeMachine.IAutomatic">
-    <Position X="3" Y="1.25" Width="1.5" />
+  <Class Name="CoffeeMachine.Tea">
+    <Position X="7.75" Y="2" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAEAIAAAAAAAAAAIAAAA=</HashCode>
+      <HashCode>AAAAAAAAAQAIAAAAAAAAQAQAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tea.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CoffeeMachine.HotChocolate">
+    <Position X="4.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAABAQAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HotChocolate.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CoffeeMachine.Espresso">
+    <Position X="4.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Espresso.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoffeeMachine.Latte">
+    <Position X="7.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Latte.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoffeeMachine.Americano">
+    <Position X="6" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Americano.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoffeeMachine.Cappuccino">
+    <Position X="9.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cappuccino.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoffeeMachine.DoubleEspresso">
+    <Position X="4.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DoubleEspresso.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="CoffeeMachine.IAutomatic">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAAAIAAAAAAAAAAIAAAA=</HashCode>
       <FileName>IAutomatic.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="CoffeeMachine.IDrink">
-    <Position X="6.25" Y="1.25" Width="1.5" />
+    <Position X="6" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAQAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IDrink.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Enum Name="CoffeeMachine.Drinks">
-    <Position X="5.25" Y="4.5" Width="1.5" />
+    <Position X="9.75" Y="2" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Drink.cs</FileName>
+      <HashCode>AAAAAAAAAEQAoAAABAAAQAAAAAAAIAAAAAIAAABAAAA=</HashCode>
+      <FileName>Coffee.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CoffeeMachine.TypeTea">
+    <Position X="7.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>TypeTea.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Font Name="Segoe UI" Size="9" />

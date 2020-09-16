@@ -55,6 +55,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Americano.cs" />
+    <Compile Include="Cappuccino.cs" />
+    <Compile Include="DoubleEspresso.cs" />
+    <Compile Include="Espresso.cs" />
+    <Compile Include="HotChocolate.cs" />
+    <Compile Include="Latte.cs" />
+    <Compile Include="Tea.cs" />
+    <Compile Include="TypeTea.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -64,7 +72,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Automatic.cs" />
-    <Compile Include="Drink.cs" />
+    <Compile Include="Coffee.cs" />
     <Compile Include="IAutomatic.cs" />
     <Compile Include="IDrink.cs" />
     <Compile Include="MainWindow.xaml.cs">
